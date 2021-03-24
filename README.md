@@ -49,10 +49,10 @@ Let's see what sounds our buttons make. (suprise! gifs don't have sounds ":(" )
 
 ![](https://cdn.glitch.com/b5564738-3c71-4f44-8d96-4abab7651218%2FsoundsOfButtons.gif?v=1616561768265)
 
-They are supposed to sound like: D, E, F#, G#, _~Perfect~_
+They are supposed to sound like: D, E, F#, G#, _Perfect_
 
 Before we start our walkthrough, let's listen to a song!
-Click Listen Music and Start then enjoy! (_~Perfect~_ sound becomes note A)
+Click Listen Music and Start then enjoy! (_Perfect_ sound becomes note A)
 
 ![](https://cdn.glitch.com/b5564738-3c71-4f44-8d96-4abab7651218%2Fmusic.gif?v=1616556136432)
 Nice tunes, right? :)
@@ -100,7 +100,7 @@ For Level 2 and Level 3, on each turn, it gets faster.
 * Looked at the note frequencies from web.
 * Stack Overflow - how to play a sound file
 * Looked at other CSS colors from W3Schools.com
-* Took _~Perfect~_ sound from youtube.
+* Took _Perfect_ sound from youtube.
 * Eagle image from google images - pinterest.
 
 
@@ -117,7 +117,7 @@ I do think that being able to find an information one is looking for from intern
 Then I implemented the code, and saw that I might need a few more if-else conditions for it to work properly. At the end I had a working code. 
 I had made a 'play a music' functionality for my game, and I noticed that it sounded bad because of the sound effect. I altered my code in such a way
 that when player was listening to music, the button would function as a note (A:440hz) rather than the sound effect; and when they are playing the game, the button functions as
-the sound effect _~Perfect~_.
+the sound effect _Perfect_.
 
 So the way I overcame my challenge was through researching and thinking more about it. If I couldn't find a solution, then I would ask my friends and colleauges.
 I do not shy away from asking questions.
