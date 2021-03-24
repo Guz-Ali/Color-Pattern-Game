@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Test Your Memory!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Memory Enhancing Button Game</h1>
+    
+    <p>
+      Hi there traveller! Why don't you sit here and test your memory?<br>
+      Select your level and press Start to play. <br> 
+      On Level 1, you have two miss chances and the speed is normal. <br>
+      On Level 2, you have one miss chance, and it speeds up a little. <br>
+      On Level 3, you cannot miss, and it gets FAST. <br>
+      While playing, you can use the cheat and heal yourself up (get extra miss chances). <br>
+      And listen to a song to relax your mind. (Press -listen music, then -start.)
+    </p>
+    <div id="levels">
+      <button id="level1" onclick="level1()">Level 1</button>
+      <button id="level2" onclick="level2()">Level 2</button>
+      <button id="level3" onclick="level3()">Level 3</button>
+    </div>
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>  
+    
+    
+    
+    
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()" ></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+    </div>
+    
+    <div id="gameOptions">
+      <button id="getLife" onclick="cheatGetLife()" >Heal Up</button>
+      <button id="listenMusic" onclick="playMeASong()" >Listen Music</button>
+    </div>
+    <div id="photo">
+      <img src="https://cdn.glitch.com/b5564738-3c71-4f44-8d96-4abab7651218%2Fnature-photography-flower.jpeg?v=1616482833530">
+    </div>
+    <p>
+      Good days to you Sirs and Misses. Have a great memory!
+    </p>
+    <audio id="perfectt" src="https://cdn.glitch.com/b5564738-3c71-4f44-8d96-4abab7651218%2Fperfect2.mov?v=1616554325885"></audio>
+  </body>
+</html>
