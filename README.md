@@ -55,6 +55,7 @@ Before we start our walkthrough, let's listen to a song!
 Click Listen Music and Start then enjoy! (_Perfect_ sound becomes note A)
 
 ![](https://cdn.glitch.com/b5564738-3c71-4f44-8d96-4abab7651218%2Fmusic.gif?v=1616556136432)
+
 Nice tunes, right? :)
 
 Now let's get to how you play the game. 
