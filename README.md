@@ -30,7 +30,7 @@ The following **optional** features are implemented:
 * [+] Player only loses after 3 mistakes (instead of on the first mistake)
 * [+] Game button appearance change goes beyond color (e.g. add an image)
 * [+] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
-* [ ] User has a limited amount of time to enter their guess on each turn
+* [-] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
@@ -46,6 +46,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of my implementation:
 
 Let's see what sounds our buttons make. (suprise! gifs don't have sounds ":(" )
+
 ![](https://cdn.glitch.com/b5564738-3c71-4f44-8d96-4abab7651218%2FsoundsOfButtons.gif?v=1616561768265)
 
 They are supposed to sound like: D, E, F#, G#, _~Perfect~_
@@ -59,6 +60,7 @@ Nice tunes, right? :)
 Now let's get to how you play the game. 
 
 To start playing choose your level and press Start.
+
 ![](https://cdn.glitch.com/b5564738-3c71-4f44-8d96-4abab7651218%2Fstart_chooselev.gif?v=1616557254452)
 
 Follow the clues to complete the game.
@@ -70,18 +72,23 @@ On Level 2, you have 1 miss chance before game over, and the game gets slightly 
 On Level 3, you lose on your first miss, and it gets FAST!
 
 If you miss, you get the alert:
+
 ![](https://cdn.glitch.com/b5564738-3c71-4f44-8d96-4abab7651218%2FchancesLeft.gif?v=1616557491535)
 
 When you use up all of your miss chances, Game Over!
+
 ![](https://cdn.glitch.com/b5564738-3c71-4f44-8d96-4abab7651218%2FgameOver.gif?v=1616557599189)
 
 When you complete the game:
+
 ![](https://cdn.glitch.com/b5564738-3c71-4f44-8d96-4abab7651218%2FyouWon.gif?v=1616557930631)
 
 If you feel your level is getting a little too hard, you can heal yourself up!
+
 ![](https://cdn.glitch.com/b5564738-3c71-4f44-8d96-4abab7651218%2FhealUpgif.gif?v=1616558064625)
 
 For Level 2 and Level 3, on each turn, it gets faster.
+
 ![](https://cdn.glitch.com/b5564738-3c71-4f44-8d96-4abab7651218%2Fspeeding_up.gif?v=1616557097640)
 
 
