@@ -113,10 +113,10 @@ However, when I was implementing adding a sound effect, I found out that the cod
 That, of course, is not usable for playing a sound file. I needed to find a leeway so that I can keep the previous code, but implement the sound effect.
 
 Before all that, I didn't even know how to play a sound file through JavaScript and HTML. So I researched, and found it through JavaScript libraries and other websites. 
-I do think that being able to find an information one is looking for from internet is an essential skill for a person living in 21st century.
+I do think that being able to find an information one is looking for from internet is an essential skill for a person living in the 21st century.
 
 Then I implemented the code, and saw that I might need a few more if-else conditions for it to work properly. At the end I had a working code. 
-I had made a 'play a music' functionality for my game, and I noticed that it sounded bad because of the sound effect. I altered my code in such a way
+I had made a 'play a music' functionality for my game previously, and I noticed that it sounded bad because of the sound effect. I altered my code in such a way
 that when player was listening to music, the button would function as a note (A:440hz) rather than the sound effect; and when they are playing the game, the button functions as
 the sound effect _Perfect_.
 
@@ -140,9 +140,9 @@ or not, because I do think that leaving the player unlimited time is a good idea
 for many reasons, but this part would be a good example to benefits of user's freedom. 
 
 Other than that, I would design how my webpage looked. Adding a background image to whole screen, then a white-ish front that makes it possible for player to focus,
-and then improving how the header and the sentences looked. 
+and then improving how the header and the sentences looked would be perfect. 
 
-I spent most of my time preparing the README file ":)"
+I spent most of my time preparing the README file and the walkthrough ":)"
 
 
 
