@@ -6,7 +6,7 @@ Submitted by: **ALI GUZELYEL**
 
 Time spent: **9** hours spent in total
 
-Link to project: https://memory-enhancing-button-game.glitch.me
+Link to project: https://color-pattern-game.glitch.me
 
 ## Required Functionality
 
